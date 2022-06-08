@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { addContact, deleteContact, getContact } from 'redux/contacts';
+import { addContact, getContact } from 'redux/contacts';
 import { useDispatch, useSelector } from 'react-redux';
 import { Form, Label, Input, Button } from './ContactEditor.styled';
 import { toast } from 'react-toastify';
